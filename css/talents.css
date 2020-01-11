@@ -1,0 +1,457 @@
+
+.topNavRightLink{
+    float:right;
+    margin-right:20px;
+    margin-top:20px;
+}
+
+.top .topNavRight button:hover{
+    cursor:pointer;
+}
+
+.top .topNavRight a{
+    text-decoration:none;
+    color:#dddddd;
+    font-size:13px;
+}
+
+.top .topNavRight text{
+    color:#dddddd;
+    font-size:13px;
+}
+
+.talentsSearchOuter{
+    width:100%;
+    height:120px;
+    margin-top:60px;
+    background:#F7F7F7;
+}
+
+.talentsSearchOuter .talentsSearchInner{
+    width:920px;
+    height:120px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#F7F7F7;
+}
+
+.talentsSearchOuter .talentsSearchInner .talentsSearchInnerTop{
+    width:920px;
+    height:30px;
+    background:#F7F7F7;
+}
+
+.talentsSearchOuter .talentsSearchInner .talentsSearchMain{
+    width:920px;
+    height:50px;
+    background:#F7F7F7;
+}
+
+.talentsSearchOuter .talentsSearchInner .talentsSearchMain input{
+    width:800px;
+    height:42px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-radius: 2px;
+}
+
+.talentsSearchOuter .talentsSearchInner .talentsSearchMain button{
+    width:90px;
+    height:50px;
+    background:#4597F7;
+    padding:0;
+    color:white;
+    font-size:16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.talentsSearchOuter .talentsSearchInner .underTalentsSearch{
+    padding-top:5px;
+}
+.talentsSearchOuter .talentsSearchInner .underTalentsSearch text{
+    font-size: 15px;
+    color:#8588B0;
+}
+
+.talentsSearchOuter .talentsSearchInner .underTalentsSearch a{
+    text-decoration: none;
+    font-size:15px;
+    color:#4597F8;
+}
+
+.content{
+    margin-top:40px;
+    width:100%;
+    height:1600px;
+}
+
+.contentMain{
+    width:1150px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.offer{
+    width:1150px;
+    height:285px;
+}
+
+.offer .offerTop{
+    width:1150px;
+    height:140px;
+}
+
+.offer .offerTop .offerTop_0{
+    
+    margin-left:1px;
+    width:572px;
+    float:left;
+}
+
+.offer .offerTop .offerTop_0:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.offer .offerTop .offerTop_1{
+    
+    margin-left:4px;
+    margin-right: 1px;
+    width:572px;
+    float:left;
+}
+
+.offer .offerTop .offerTop_1:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.offer .offerBottom{
+    width:1150px;
+    height:140px;
+}
+
+.offer .offerBottom .offerBottom_0{
+    float:left;
+    padding-top:0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.offer .offerBottom .offerBottom_0:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.offer .offerBottom .offerBottom_1{
+    float:left;
+    padding-top:0;
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+.offer .offerBottom .offerBottom_1:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.offer .offerBottom .offerBottom_2{
+    float:left;
+    padding-top:0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.offer .offerBottom .offerBottom_2:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.offer .offerBottom .offerBottom_3{
+    float:left;
+    margin-left: 2px;
+    padding-top:0;
+}
+
+.offer .offerBottom .offerBottom_3:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.hotCollege{
+    margin-top:15px;
+    margin-left:2px;
+    width:1146px;
+    height:465px;
+}
+
+.hotCollege .hotCollegeTitle{
+    width:1146px;
+    height:42px;
+    background:#F7F7F7;
+}
+
+.hotCollege .hotCollegeTitle .hotCollegeTitleText{
+    padding-top:15px;
+    padding-left:17px;
+
+}
+
+
+.hotCollege .hotCollegeLine{
+    width:1146px;
+    height:2px;
+    background:#000;
+}
+
+.hotCollege .collegeInfo{
+    width:1146px;
+    height:420px;
+    margin-left:1px;
+}
+
+.collegeInfoTopBlank{
+    height:30px;
+}
+
+.collegeInfoTop{
+    width:266px;
+    height:52px;
+    background:#000;
+    margin-left:20px;
+}
+
+.collegeInfoTop .collegeInfoTopLeft{
+    padding-left:10px;
+    float:left;
+    width:67px;
+    height:52px;
+}
+
+.hotCollege .collegeInfo .collegeInfoRow{
+    width:1146px;
+    height:140px;
+}
+
+.collegeInfoOne{
+    float:left;
+    width:286px;
+    height:140px;
+    background:#FFFF99;
+    border-radius: 10px;
+}
+
+.collegeInfoOne:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.collegeInfoTwo{
+    float:left;
+    width:286px;
+    height:140px;
+    background:#ADCDFC;
+    border-radius: 10px;
+}
+
+.collegeInfoTwo:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+
+.collegeInfoTop .collegeInfoTopRight{
+    padding-left:120px;
+    height:52px;
+}
+
+.collegeInfoTop .collegeInfoTopRight .collegeName{
+    color:#fff;
+}
+
+.collegeInfoTop .collegeInfoTopRight .collegeType{
+    color:#fff;
+}
+
+.collegeInfo .collegeInfoBottom{
+    margin-top:16px;
+    margin-left:18px;
+}
+
+.collegeInfo .collegeInfoBottom .offerNum{
+    color:#FF6600;
+}
+
+.collegeInfo .collegeInfoBottom .offerCity{
+    color:lightslategrey;
+    float:right;
+    padding-right:10px;
+
+}
+
+.hotJob{
+    width:1146px;
+    height:470px;
+    margin-top:15px;
+}
+
+.hotJob .hotJobTitle{
+    width:1146px;
+    height:42px;
+    background:#F7F7F7;
+}
+
+.hotJob .hotJobTitle .hotJobTitleText{
+    float:left;
+    height:30px;
+    width:300px;
+    padding-left:20px;
+    padding-top:12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.hotJob .hotJobTitle .moreJob{
+    float:right;
+    height:30px;
+    width:90px;
+    padding-top:12px;
+    color:#4597F8;
+    cursor:pointer;
+}
+
+
+.hotJob .hotJobLine{
+    width:1146px;
+    height:2px;
+    background:#000;
+    
+}
+
+.hotJob .jobInfo{
+    width:1140px;
+    height:426px;
+}
+
+.hotJob .jobInfo .jobInfoRow{
+    widows: 1140px;
+    height:106px;
+    padding-left:15px;
+    border-bottom:1px #B3B3B3 dashed;
+}
+
+ .jobInfoItem,.jobInfoItemCenter{
+    width:370px;
+    height:106px;
+    float:left;
+}
+
+.jobInfoItem:hover,.jobInfoItemCenter:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.jobInfoItemCenter{
+    
+    
+    border-right:1px #B3B3B3 dashed;
+    border-left:1px #B3B3B3 dashed;
+}
+
+.jobInfoItemTopBlank{
+    height:18px;
+}
+
+.jobInfoItemMsg{
+    height:18px;
+    padding-left:30px;
+}
+
+.jobInfoItemMiddleBlank{
+    height:16px;
+}
+
+.jobInfoItemCollege{
+    height:38px;
+}
+
+.jobInfoItemCollegeImage{
+    width:38px;
+    height:38px;
+    float:left;
+    margin-left:30px;
+
+}
+
+.jobInfoItemCollegeName{
+    width:200px;
+    float:left;
+    padding-top:11px;
+    padding-left:5px;
+    font-size:15px;
+}
+
+.jobInfoItemCollegeDate{
+    float:left;
+    padding-top:11px;
+    padding-left:5px;
+    font-size:15px;
+    color:lightslategrey;
+}
+
+.jobInfoItemBottomBlank{
+    height:16px;
+}
+
+.hotCity{
+    height:190px;
+    margin-top:15px;
+}
+
+.hotCity .hotCityTitle{
+    width:1146px;
+    height:42px;
+    background:#F7F7F7;
+    border-bottom:2px #000 solid;
+}
+
+.hotCityTitleText{
+    float:left;
+    height:30px;
+    width:300px;
+    padding-left:20px;
+    padding-top:12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.hotCityMiddleBlank{
+    height:15px;
+    width:1146px;
+}
+
+.hotCityBar{
+    width:1146px;
+    height:100px;
+    padding-left:10px;
+}
+
+.hotCityBar .hotCityImage{
+    width:179px;
+    height:100px;
+    float:left;
+    padding-right:10px;
+}
+
+.hotCityBar .hotCityImage:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.hotCityBottomBlank{
+    
+    width:1146px;
+    height:15px;
+    border-bottom:1px #B3B3B3 dashed;
+}

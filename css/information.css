@@ -1,0 +1,295 @@
+
+.topNav .inputText input{
+    width:300px;
+    height:30px;
+    background-color:#F2F2F2;
+    border-radius: 5px;
+    float:right;
+    margin-left:auto;
+    margin-right:20%;
+    margin-top:22px;
+}
+.content{
+    margin-top:80px;
+    width:100%;
+    height:1600px;
+}
+
+.contentMain{
+    width:1150px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.homeLeftContent{
+    float:left;
+    width:778px;/*788*/
+    height:1560px;
+}
+
+.rightMenu{
+    float:left;
+    margin-left:45px;
+    width:320px;
+    height:1040px;
+    /*border:1px solid black;*/
+}
+
+
+.content .homeLeftContent .middleNav{
+    padding-left:25px;
+    padding-top:3px;
+    background-color:white;
+    margin-top:0px;
+}
+.content .homeLeftContent .middleNav a{
+    margin-right:30px;
+    font-size:17px;
+    font-weight: 600;
+    color:black;
+    text-decoration:none;/*取消对a标签的默认装饰，这样可以取消下划线，而且字体、字号才可以变成自己设置的*/
+}
+
+.content .homeLeftContent .newsList{
+    background-color:#f7f7f7;
+    margin-top:15px;
+}
+
+.content .homeLeftContent .newsList .news{
+    height:180px;
+    border-bottom:#3c3c3c dotted;
+    padding-top:3.5px;
+    margin-bottom:2px;
+    cursor:pointer;
+}
+
+.content .homeLeftContent .newsList .news:hover{
+    background-color:#ffff99;
+    padding-top:5px;
+    padding-bottom:5px;/*鼠标悬停时改变padding，新闻块产生一个活动的效果*/
+}
+
+/*对最后一条新闻取消下边框，开始*/
+.content .homeLeftContent .newsList{
+    margin-top:0;
+    background-color:#F7F7F7;/*#eeeeee*/
+    margin-top:12px;
+}
+
+.content .homeLeftContent .newsList .newsLast{
+    height:180px;
+    padding-top:3.5px;
+    margin-bottom:2px;
+    cursor:pointer;
+}
+
+.content .homeLeftContent .newsList .newsLast:hover{
+    background-color:#FFFF99;/*#ffff66*/
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.content .homeLeftContent .newsList .newsLast .newsTitle{
+    margin-top:12px;
+    height:50px;
+    padding-right:10px;
+    padding-left:18px;
+}
+
+.content .homeLeftContent .newsList .newsLast .newsTitle text{
+    font-size:22px;
+    color:#000;
+}
+/*对最后一条新闻取消下边框，结束*/
+
+.content .homeLeftContent #latestNews{
+    display:block;
+}
+
+.content .homeLeftContent #dynamicNews{
+    display:none;
+}
+
+.content .homeLeftContent #rankingNews{
+    display:none;
+}
+
+.content .homeLeftContent #geniusNews{
+    display:none;
+}
+
+.content .homeLeftContent #projectNews{
+    display:none;
+}
+
+.content .homeLeftContent #paperNews{
+    display:none;
+}
+
+.content .homeLeftContent #globalNews{
+    display:none;
+}
+
+.content .homeLeftContent .newsList .news .newsTitle{
+    margin-top:12px;
+    height:50px;
+    padding-right:10px;
+    padding-left:18px;
+}
+
+.content .homeLeftContent .newsList .news .newsTitle text{
+    font-size:22px;
+    color:#000;
+}
+
+.content .homeLeftContent .newsList .newsAuthor{
+    padding-right:10px;
+    padding-left:18px;
+}
+
+.content .homeLeftContent .newsList .newsAuthor text{
+    font-size:15px;
+    color:#444;
+
+} 
+
+.content .homeLeftContent .newsList .newsDetail{
+    height:180px;
+    padding-top:25px;
+    padding-right:10px;
+    padding-left:18px;
+}
+
+.content .homeLeftContent .newsList .newsDetail text{
+    font-size:17px;
+    color:#444;
+
+}
+
+.rightMenu{
+    background:#fff;
+}
+
+.rightMenu .hot {
+    background:#fff;
+    height:470px;
+    border:#444 dashed 2px;
+}
+
+.rightMenu .hot .hotTitle{
+    width:312px;
+    height:35px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+    color:#fff;
+    background:#0066FF;
+}
+
+
+.rightMenu .hot .hotCollection{
+    margin-top:15px;
+}
+
+.rightMenu .hot .hotNews{
+    margin:0 5px 8px 5px;
+    color:#111;
+    cursor: pointer;
+}
+
+.rightMenu .hot .hotNews:hover{
+    color:#397FE9;
+}
+
+
+
+.rightMenu .hot .hotNews .hotNewsDate{
+    color:#6F6F6F;
+    font-size:15px;
+}
+
+.rightMenu .academicSearch{
+    width:316px;
+    height:175px;
+    border-bottom:#444 dashed 2px;
+    border-left:#444 dashed 2px;
+    border-right:#444 dashed 2px;
+    padding-top:15px;
+}
+
+.rightMenu .academicSearch .academicImage{
+    background:url(../images/academicSearch.png);
+    margin-left:17px;
+    width:280px;
+    height:160px;
+    font-size:22px;
+    text-align:center;
+    color:#fff;
+    cursor: pointer;
+}
+
+.rightMenu .academicSearch .academicImage:hover{
+    font-size:23px;
+}
+
+.rightMenu .qrCode{
+    height:160px;
+    border-bottom:#444 dashed 2px;
+    border-left:#444 dashed 2px;
+    border-right:#444 dashed 2px;
+}
+
+.rightMenu .qrCodeInner{
+    background:#000;
+    height:130px;
+    padding:15px;
+}
+
+.rightMenu .qrCodeInner .qrCodeInnerLeft{
+    float:left;
+    width:165px;
+    margin-top:10px;
+    color:#fff;
+}
+
+.rightMenu .qrCodeInner .qrCodeInnerLeft .qrCodeInnerLeftTop{
+    height:40px;
+    padding-top:10px;
+    padding-left:5px;
+}
+
+.rightMenu .qrCodeInner .qrCodeInnerLeft .qrCodeInnerLeftBottom{
+    font-size:14px;
+}
+
+.rightMenu .qrCodeInner .qrCodeInnerRight{
+    float:left;
+    width:90px;
+    height:90px;
+    background:url("../images/qrcode.jpeg");
+    margin:15px;
+}
+
+.rightMenu .collegeSearch{
+    width:316px;
+    height:175px;
+    border-bottom:#444 dashed 2px;
+    border-left:#444 dashed 2px;
+    border-right:#444 dashed 2px;
+    padding-top:15px;
+}
+
+.rightMenu .collegeSearch .collegeImage{
+    background:url(../images/collegeSearch.jpeg);
+    margin-left:17px;
+    width:280px;
+    height:160px;
+    font-size:22px;
+    text-align:center;
+    color:#fff;
+    cursor: pointer;
+}
+
+.rightMenu .collegeSearch .collegeImage:hover{
+    font-size:23px;
+}

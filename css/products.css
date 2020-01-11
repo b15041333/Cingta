@@ -1,0 +1,192 @@
+.topNav .inputText input{
+    width:300px;
+    height:30px;
+    background-color:#F2F2F2;
+    border-radius: 5px;
+    float:right;
+    margin-left:auto;
+    margin-right:20%;
+    margin-top:22px;
+}
+
+.productsContent{
+    width:100%;
+    height:2280px;
+}
+
+.productsContentMain{
+    width:100%;
+    height:800px;
+    background:url(../images/productsPage/bg.png) no-repeat;
+    background-size: cover;
+}
+
+.productsContentMainTopBlank{
+    height:150px;
+    /*不用为该div设置透明，若不填写内容默认就是透明的*/
+}
+
+.productsContentMainTitle{
+    height:38px;
+    text-align: center;
+    color:#366DF0;
+    font-size: 35px;
+}
+
+.productsContentMainSubTitle{
+    height:50px;
+    text-align:center;
+    font-size:18px;
+    padding-top:32px;
+    color:#454545;
+}
+
+.productsPoster{
+    width:1120px;
+    height:410px;
+    margin:0 auto 120px auto;
+}
+
+.productsPosterItem{
+    width:260px;
+    height:340px;
+    float:left;
+    margin-top:42px;
+    border-radius: 10px;
+}
+
+.productsPosterItem:hover{
+    margin-top:25px;
+    cursor:pointer;
+}
+
+#productPoster-0{
+    background:#56A3FB;
+    margin-left:10px;
+    margin-right:20px;
+}
+
+#productPoster-1{
+    background:#24E4C7;
+    margin-right:20px;
+}
+
+#productPoster-2{
+    background:#FDD14A;
+    margin-right:20px;
+}
+
+#productPoster-3{
+    background:#FD8368;
+}
+
+.productPosterTop{
+    width:260px;
+    height:137px;
+    margin-top:25px;
+}
+
+.posterCircle{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    opacity:0.85;
+    background:#fff;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.posterCircle img{
+    padding-left:20px;
+    padding-top:20px;
+}
+
+.productPosterName{
+    width:260px;
+    height:30px;
+    padding-bottom:10px;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+}
+
+.productPosterIntro{
+    width:230px;
+    height:85px;
+    margin-left:auto;
+    margin-right: auto;
+    font-size:15px;
+    color:#fff;
+}
+
+.productPosterLook{
+    width:260px;
+    text-align: center;
+    color:#eee;
+    font-size: 15px;
+}
+
+.productBannerCollection{
+    width:1050px;
+    height:1500px;
+    margin:0 auto 0 auto;
+}
+
+.productBannerType-0{
+    height:370px;
+    background:#F9F9F9;
+    border-radius: 20px;
+}
+
+.productBannerType-1{
+    height:370px;
+    background:#fff;
+    border-radius: 20px;
+}
+
+.productBannerType-0:hover,.productBannerType-1:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+
+
+.productBannerText{
+    float:left;
+    width:620px;
+    height:370px;
+    padding-left:70px;
+}
+
+.productBannerText-0{
+    height:70px;
+    font-size: 35px;
+    padding-top:100px;
+}
+
+.productBannerText-1{
+    color:#666666;
+}
+
+.productBannerText-2{
+    padding-top:30px;
+    font-size:18px;
+}
+
+#yellowCircle{
+    color:orange;
+    font-size: 25px;
+}
+
+.productBannerImage{
+    float:left;
+    width:350px;
+    height:300px;
+}
+
+.productBannerImage img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height: 100%;
+    padding-top: 55px;
+}
